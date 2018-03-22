@@ -5,11 +5,11 @@
 music = {
   \time 2/2
   \key c \major
-      \repeat volta 2 {
-        c8 d e c d e f d e f g e c d e c d e f d b, c d b, c e d c d f e d
-      }
-      c1
-      \bar "|."
+  \repeat volta 2 {
+    c8 d e c d e f d e f g e c d e c d e f d b, c d b, c e d c d f e d
+  }
+  c1
+  \bar "|."
 }
 
 %{ 27 %} { \transpose c g { \music } }
